@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
     return nil
   end
 
-  values = [].sort
+  values = []
   h = []
   name_hash.collect {|key, value| values << value }
 
