@@ -15,5 +15,6 @@ def key_for_min_value(name_hash)
        h << key
     end
   end
-  return :blake
+  puts :adam
+  return h[0]
 end
