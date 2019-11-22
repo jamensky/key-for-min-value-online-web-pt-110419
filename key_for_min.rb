@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
   values = []
   h = []
   name_hash.collect {|key, value| values << value }
-
+  values = values.sort
   name_hash.collect do |key, value|
     if value == values.first
        h << key
