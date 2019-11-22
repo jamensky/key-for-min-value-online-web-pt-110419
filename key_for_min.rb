@@ -15,5 +15,5 @@ def key_for_min_value(name_hash)
        h << key
     end
   end
-  return h.last
+  return h[0]
 end
